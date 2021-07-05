@@ -36,4 +36,18 @@ func main() {
 	// Byte
 	var firstByte byte = 'a'
 	fmt.Println(firstByte)
+
+	// Concatenating Strings
+	firstName := "John"
+	lastName := "Doe"
+
+	fmt.Println(firstName + " " + lastName)
+	// fmt.Println("9" + 1)
+
+	// Multiline
+	multiline := `This is a multiline string!
+	It is quite long.
+
+	And spans multiple lines`
+	fmt.Println(multiline)
 }
