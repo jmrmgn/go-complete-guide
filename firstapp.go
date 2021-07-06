@@ -45,8 +45,9 @@ func main() {
 	lastName := "Doe"
 	fullName := fmt.Sprintf("%v %v", firstName, lastName)
 	age := 20
+	greetingSentence := fmt.Sprintf("Hi, I am %v and I am %v (Type: %T) years old.", fullName, age, age)
 
-	fmt.Printf("Hi, I am %v and I am %v (Type: %T) years old.", fullName, age, age)
+	fmt.Println(greetingSentence)
 	// fmt.Println("9" + 1)
 
 	// Multiline
@@ -55,4 +56,6 @@ func main() {
 
 	// And spans multiple lines`
 	// fmt.Println(multiline)
+
+	fmt.Println("PI from pi.go file", pi)
 }

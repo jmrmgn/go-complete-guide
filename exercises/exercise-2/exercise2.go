@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	pi := 3.14
+	const pi = 3.14 // same as constant in JS
 	radius := 5
 
 	circleCircumference := 2 * pi * float64(radius)
