@@ -40,14 +40,16 @@ func main() {
 	// Concatenating Strings
 	firstName := "John"
 	lastName := "Doe"
+	fullName := fmt.Sprintf("%v %v", firstName, lastName)
+	age := 20
 
-	fmt.Println(firstName + " " + lastName)
+	fmt.Printf("Hi, I am %v and I am %v (Type: %T) years old.", fullName, age, age)
 	// fmt.Println("9" + 1)
 
 	// Multiline
-	multiline := `This is a multiline string!
-	It is quite long.
+	// multiline := `This is a multiline string!
+	// It is quite long.
 
-	And spans multiple lines`
-	fmt.Println(multiline)
+	// And spans multiple lines`
+	// fmt.Println(multiline)
 }
