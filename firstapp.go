@@ -6,7 +6,7 @@ import (
 	"github.com/yourorg/firstapp/greeting"
 )
 
-func main() {
+func oldMain() {
 	// var greetingText string
 	// greetingText = "Hello World!"
 
